@@ -19,8 +19,8 @@ try:
         cursor = connection.cursor()
         
         # Create database if it doesn't already exist
-        cursor.execute("CREATE DATABASE IF NOT EXISTS a1x_book_store")
-        print("DB database `a1x_book_store` created successfully!")
+        cursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store")
+        print("DB database `alx_book_store` created successfully!")
 
 except Error as e:
     # Handle any errors during connection or execution

@@ -32,6 +32,6 @@ CREATE TABLE order_Details (
     order_id INT,
     book_id INT,
     quantity DOUBLE INT,
-    FOREIGN KEY (order_id) REFERENCES orders(order_id),
-    FOREIGN KEY (book_id) REFERENCES books(book_id)
+    FOREIGN KEY (order_id) REFERENCES Orders(order_id),
+    FOREIGN KEY (book_id) REFERENCES Books(book_id)
 );
